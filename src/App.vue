@@ -1,15 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div class="todo-app">
+      TODO APP
+    </div>
+  <img src="./assets/logo.png">
     <todoList>Todo list</todoList>
-
+    
 
     </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
 import todoList from './components/todoList'
+
 
 
 
@@ -18,6 +22,7 @@ export default {
 
   components: {
     todoList,
+  
   
   }
 }
@@ -32,5 +37,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   font-size: 25px;
+}
+.todo-app{
+  font-size: 85px;
 }
 </style>
